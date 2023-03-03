@@ -1,7 +1,16 @@
 import React from "react";
+import Header from "./components/Header.jsx";
+import Formulario from "./components/Formulario.jsx";
+import ListadoPacientes from "./components/ListadoPacientes.jsx";
 
 function App() {
-  return <h1>Hello World!</h1>;
+  return (
+    <div className="container mx-auto mt-20">
+      <Header />
+      <Formulario />
+      <ListadoPacientes />
+    </div>
+  );
 }
 
 export default App;
